@@ -1,33 +1,32 @@
-POST http://localhost:3333/videos
+POST http://localhost:3333/api/videos
 Content-Type: application/json
 
 {
-    "title": "Video node",
-    "description": "Video 2 description",
-    "duration": "120"
-}
-
-
-###
-
-GET http://localhost:3333/videos
-Content-Type: application/json
-###
-
-GET http://localhost:3333/videos?search=node
-Content-Type: application/json
-
-###
-
-PUT http://localhost:3333/videos/6aa2e20a-16ea-4efa-b00b-93d263555498
-Content-Type: application/json
-
-{
-    "title": "Video 3",
-    "description": "Video 2 description",
+    "title": "Video ",
+    "description": "Video 2",
     "duration": "120"
 }
 
 ###
 
-DELETE http://localhost:3333/videos/740b2a3f-0714-4a70-b039-dcd9c00d4e7b
+GET http://localhost:3333/api/videos
+Content-Type: application/json
+###
+
+GET http://localhost:3333/api/videos/2a98ef92-13b4-42df-bf8c-1ce9fd359fb4
+Content-Type: application/json
+
+###
+
+PUT http://localhost:3333/api/videos/2a98ef92-13b4-42df-bf8c-1ce9fd359fb4
+Content-Type: application/json
+
+{
+    "title": "aaaaa 3",
+    "description": "Video 3",
+    "duration": "120"
+}
+
+###
+
+DELETE http://localhost:3333/api/videos/2a98ef92-13b4-42df-bf8c-1ce9fd359fb4
