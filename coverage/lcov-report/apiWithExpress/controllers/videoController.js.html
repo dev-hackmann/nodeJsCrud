@@ -23,9 +23,9 @@
         <div class='clearfix'>
             
             <div class='fl pad1y space-right2'>
-                <span class="strong">70.96% </span>
+                <span class="strong">19.35% </span>
                 <span class="quiet">Statements</span>
-                <span class='fraction'>22/31</span>
+                <span class='fraction'>6/31</span>
             </div>
         
             
@@ -37,16 +37,16 @@
         
             
             <div class='fl pad1y space-right2'>
-                <span class="strong">80% </span>
+                <span class="strong">0% </span>
                 <span class="quiet">Functions</span>
-                <span class='fraction'>4/5</span>
+                <span class='fraction'>0/5</span>
             </div>
         
             
             <div class='fl pad1y space-right2'>
-                <span class="strong">70.96% </span>
+                <span class="strong">19.35% </span>
                 <span class="quiet">Lines</span>
-                <span class='fraction'>22/31</span>
+                <span class='fraction'>6/31</span>
             </div>
         
             
@@ -61,7 +61,7 @@
             </div>
         </template>
     </div>
-    <div class='status-line medium'></div>
+    <div class='status-line low'></div>
     <pre><table class="coverage">
 <tr><td class="line-count quiet"><a name='L1'></a><a href='#L1'>1</a>
 <a name='L2'></a><a href='#L2'>2</a>
@@ -127,9 +127,19 @@
 <a name='L62'></a><a href='#L62'>62</a></td><td class="line-coverage quiet"><span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-yes">1x</span>
-<span class="cline-any cline-yes">1x</span>
-<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-no">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
@@ -146,31 +156,21 @@
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-yes">1x</span>
-<span class="cline-any cline-yes">1x</span>
-<span class="cline-any cline-yes">1x</span>
-<span class="cline-any cline-yes">1x</span>
-<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-no">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-yes">1x</span>
-<span class="cline-any cline-yes">1x</span>
-<span class="cline-any cline-yes">1x</span>
-<span class="cline-any cline-yes">1x</span>
-<span class="cline-any cline-yes">1x</span>
-<span class="cline-any cline-yes">1x</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-yes">1x</span>
-<span class="cline-any cline-yes">1x</span>
-<span class="cline-any cline-yes">1x</span>
-<span class="cline-any cline-yes">1x</span>
-<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-no">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
@@ -187,10 +187,10 @@
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span></td><td class="text"><pre class="prettyprint lang-js">import videoService from '../services/videoService.js'
 &nbsp;
-const getVideos = async (req, res) =&gt; {
-  try {
-    const videos = await videoService.getAllVideos()
-    res.status(200).json(videos)
+const getVideos = <span class="fstat-no" title="function not covered" >as</span>ync (req, res) =&gt; {
+<span class="cstat-no" title="statement not covered" >  try {</span>
+    const videos = <span class="cstat-no" title="statement not covered" >await videoService.getAllVideos()</span>
+<span class="cstat-no" title="statement not covered" >    res.status(200).json(videos)</span>
   } catch (error) {
 <span class="cstat-no" title="statement not covered" >    res.status(500).json({ message: error.message })</span>
   }
@@ -206,32 +206,32 @@ const getVideos = async (req, res) =&gt; {
     }
   };
   
-  const createVideo = async (req, res) =&gt; {
-    try {
-      const { title, description, duration } = req.body
-      await videoService.createVideo({ title, description, duration })
-      res.status(201).send()
+  const createVideo = <span class="fstat-no" title="function not covered" >as</span>ync (req, res) =&gt; {
+<span class="cstat-no" title="statement not covered" >    try {</span>
+      const { title, description, duration } = <span class="cstat-no" title="statement not covered" >req.body</span>
+<span class="cstat-no" title="statement not covered" >      await videoService.createVideo({ title, description, duration })</span>
+<span class="cstat-no" title="statement not covered" >      res.status(201).send()</span>
     } catch (error) {
 <span class="cstat-no" title="statement not covered" >      res.status(500).json({ message: error.message })</span>
     }
   };
   
-  const updateVideo = async (req, res) =&gt; {
-    try {
-      const { id } = req.params
-      const { title, description, duration } = req.body
-      await videoService.updateVideo(id, { title, description, duration })
-      res.status(200).send()
+  const updateVideo = <span class="fstat-no" title="function not covered" >as</span>ync (req, res) =&gt; {
+<span class="cstat-no" title="statement not covered" >    try {</span>
+      const { id } = <span class="cstat-no" title="statement not covered" >req.params</span>
+      const { title, description, duration } = <span class="cstat-no" title="statement not covered" >req.body</span>
+<span class="cstat-no" title="statement not covered" >      await videoService.updateVideo(id, { title, description, duration })</span>
+<span class="cstat-no" title="statement not covered" >      res.status(200).send()</span>
     } catch (error) {
 <span class="cstat-no" title="statement not covered" >      res.status(500).json({ message: error.message })</span>
     }
   };
   
-  const deleteVideo = async (req, res) =&gt; {
-    try {
-      const { id } = req.params
-      await videoService.deleteVideo(id)
-      res.status(200).send()
+  const deleteVideo = <span class="fstat-no" title="function not covered" >as</span>ync (req, res) =&gt; {
+<span class="cstat-no" title="statement not covered" >    try {</span>
+      const { id } = <span class="cstat-no" title="statement not covered" >req.params</span>
+<span class="cstat-no" title="statement not covered" >      await videoService.deleteVideo(id)</span>
+<span class="cstat-no" title="statement not covered" >      res.status(200).send()</span>
     } catch (error) {
 <span class="cstat-no" title="statement not covered" >      res.status(500).json({ message: error.message })</span>
     }
@@ -253,7 +253,7 @@ export default videoController
             <div class='footer quiet pad2 space-top1 center small'>
                 Code coverage generated by
                 <a href="https://istanbul.js.org/" target="_blank" rel="noopener noreferrer">istanbul</a>
-                at 2025-01-14T09:22:44.403Z
+                at 2025-01-14T09:59:21.396Z
             </div>
         <script src="../../prettify.js"></script>
         <script>

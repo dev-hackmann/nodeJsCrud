@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1736846564413" clover="3.2.0">
-  <project timestamp="1736846564413" name="All files">
-    <metrics statements="73" coveredstatements="56" conditionals="0" coveredconditionals="0" methods="13" coveredmethods="10" elements="86" coveredelements="66" complexity="0" loc="73" ncloc="73" packages="6" files="6" classes="6"/>
+<coverage generated="1736848761405" clover="3.2.0">
+  <project timestamp="1736848761406" name="All files">
+    <metrics statements="73" coveredstatements="24" conditionals="0" coveredconditionals="0" methods="13" coveredmethods="0" elements="86" coveredelements="24" complexity="0" loc="73" ncloc="73" packages="6" files="6" classes="6"/>
     <package name="apiWithExpress">
       <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
       <file name="app.js" path="/home/nirah/project/apiWithExpress/app.js">
@@ -21,13 +21,13 @@
       </file>
     </package>
     <package name="apiWithExpress.controllers">
-      <metrics statements="31" coveredstatements="22" conditionals="0" coveredconditionals="0" methods="5" coveredmethods="4"/>
+      <metrics statements="31" coveredstatements="6" conditionals="0" coveredconditionals="0" methods="5" coveredmethods="0"/>
       <file name="videoController.js" path="/home/nirah/project/apiWithExpress/controllers/videoController.js">
-        <metrics statements="31" coveredstatements="22" conditionals="0" coveredconditionals="0" methods="5" coveredmethods="4"/>
+        <metrics statements="31" coveredstatements="6" conditionals="0" coveredconditionals="0" methods="5" coveredmethods="0"/>
         <line num="3" count="1" type="stmt"/>
-        <line num="4" count="1" type="stmt"/>
-        <line num="5" count="1" type="stmt"/>
-        <line num="6" count="1" type="stmt"/>
+        <line num="4" count="0" type="stmt"/>
+        <line num="5" count="0" type="stmt"/>
+        <line num="6" count="0" type="stmt"/>
         <line num="8" count="0" type="stmt"/>
         <line num="12" count="1" type="stmt"/>
         <line num="13" count="0" type="stmt"/>
@@ -36,35 +36,35 @@
         <line num="16" count="0" type="stmt"/>
         <line num="18" count="0" type="stmt"/>
         <line num="22" count="1" type="stmt"/>
-        <line num="23" count="1" type="stmt"/>
-        <line num="24" count="1" type="stmt"/>
-        <line num="25" count="1" type="stmt"/>
-        <line num="26" count="1" type="stmt"/>
+        <line num="23" count="0" type="stmt"/>
+        <line num="24" count="0" type="stmt"/>
+        <line num="25" count="0" type="stmt"/>
+        <line num="26" count="0" type="stmt"/>
         <line num="28" count="0" type="stmt"/>
         <line num="32" count="1" type="stmt"/>
-        <line num="33" count="1" type="stmt"/>
-        <line num="34" count="1" type="stmt"/>
-        <line num="35" count="1" type="stmt"/>
-        <line num="36" count="1" type="stmt"/>
-        <line num="37" count="1" type="stmt"/>
+        <line num="33" count="0" type="stmt"/>
+        <line num="34" count="0" type="stmt"/>
+        <line num="35" count="0" type="stmt"/>
+        <line num="36" count="0" type="stmt"/>
+        <line num="37" count="0" type="stmt"/>
         <line num="39" count="0" type="stmt"/>
         <line num="43" count="1" type="stmt"/>
-        <line num="44" count="1" type="stmt"/>
-        <line num="45" count="1" type="stmt"/>
-        <line num="46" count="1" type="stmt"/>
-        <line num="47" count="1" type="stmt"/>
+        <line num="44" count="0" type="stmt"/>
+        <line num="45" count="0" type="stmt"/>
+        <line num="46" count="0" type="stmt"/>
+        <line num="47" count="0" type="stmt"/>
         <line num="49" count="0" type="stmt"/>
         <line num="53" count="1" type="stmt"/>
       </file>
     </package>
     <package name="apiWithExpress.models">
-      <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <metrics statements="4" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
       <file name="videoModel.js" path="/home/nirah/project/apiWithExpress/models/videoModel.js">
-        <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
-        <line num="3" count="14" type="stmt"/>
-        <line num="4" count="14" type="stmt"/>
-        <line num="5" count="14" type="stmt"/>
-        <line num="6" count="14" type="stmt"/>
+        <metrics statements="4" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="3" count="0" type="stmt"/>
+        <line num="4" count="0" type="stmt"/>
+        <line num="5" count="0" type="stmt"/>
+        <line num="6" count="0" type="stmt"/>
       </file>
     </package>
     <package name="apiWithExpress.routes">
@@ -80,13 +80,13 @@
       </file>
     </package>
     <package name="apiWithExpress.services">
-      <metrics statements="26" coveredstatements="18" conditionals="0" coveredconditionals="0" methods="7" coveredmethods="5"/>
+      <metrics statements="26" coveredstatements="6" conditionals="0" coveredconditionals="0" methods="7" coveredmethods="0"/>
       <file name="videoService.js" path="/home/nirah/project/apiWithExpress/services/videoService.js">
-        <metrics statements="26" coveredstatements="18" conditionals="0" coveredconditionals="0" methods="7" coveredmethods="5"/>
+        <metrics statements="26" coveredstatements="6" conditionals="0" coveredconditionals="0" methods="7" coveredmethods="0"/>
         <line num="5" count="1" type="stmt"/>
-        <line num="6" count="1" type="stmt"/>
-        <line num="7" count="1" type="stmt"/>
-        <line num="8" count="14" type="stmt"/>
+        <line num="6" count="0" type="stmt"/>
+        <line num="7" count="0" type="stmt"/>
+        <line num="8" count="0" type="stmt"/>
         <line num="10" count="0" type="stmt"/>
         <line num="14" count="1" type="stmt"/>
         <line num="15" count="0" type="stmt"/>
@@ -94,19 +94,19 @@
         <line num="17" count="0" type="stmt"/>
         <line num="19" count="0" type="stmt"/>
         <line num="23" count="1" type="stmt"/>
-        <line num="24" count="1" type="stmt"/>
-        <line num="25" count="1" type="stmt"/>
-        <line num="26" count="1" type="stmt"/>
-        <line num="27" count="1" type="stmt"/>
+        <line num="24" count="0" type="stmt"/>
+        <line num="25" count="0" type="stmt"/>
+        <line num="26" count="0" type="stmt"/>
+        <line num="27" count="0" type="stmt"/>
         <line num="29" count="0" type="stmt"/>
         <line num="33" count="1" type="stmt"/>
-        <line num="34" count="1" type="stmt"/>
-        <line num="35" count="1" type="stmt"/>
-        <line num="36" count="1" type="stmt"/>
+        <line num="34" count="0" type="stmt"/>
+        <line num="35" count="0" type="stmt"/>
+        <line num="36" count="0" type="stmt"/>
         <line num="38" count="0" type="stmt"/>
         <line num="42" count="1" type="stmt"/>
-        <line num="43" count="1" type="stmt"/>
-        <line num="44" count="1" type="stmt"/>
+        <line num="43" count="0" type="stmt"/>
+        <line num="44" count="0" type="stmt"/>
         <line num="46" count="0" type="stmt"/>
         <line num="50" count="1" type="stmt"/>
       </file>
