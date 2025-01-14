@@ -1,0 +1,24 @@
+name: Testes Automatizados
+
+on:
+    push:
+        branches:
+            - main
+    
+jobs:
+    build:
+        runs-on: ubuntu-latest
+        steps:
+            - name: Checkout do código
+              uses: actions/checkout@v2
+
+            - name: Configurar o Node.js
+              uses: actions/setup-node@v2
+              with:
+                    node-version: '22.12.0'
+
+            - name: Instalar as dependências
+              run: npm install
+
+            - name: Executar os testes
+              run: npm test
