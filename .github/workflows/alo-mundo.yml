@@ -1,0 +1,12 @@
+name: Alô Mundo
+
+on:
+  workflow_dispatch:
+
+jobs:
+  alo:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Ecoar Alô Mundo
+      run: echo "Alô Mundo!"
