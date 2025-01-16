@@ -8,7 +8,7 @@ const { PGHOST, PGUSER, PGDATABASE, PGPASSWORD, PGPORT } = process.env;
 
 const db = new Pool({
   user: PGUSER,
-  host: PGHOST,
+  host: 'db',
   database: PGDATABASE,
   password: PGPASSWORD,
   port: PGPORT,
